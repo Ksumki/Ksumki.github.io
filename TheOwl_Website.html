@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Owl</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -60,7 +61,7 @@
             text-align: center;
         }
         footer {
-            background-color: gray;
+            background-color:#4d4d4d;
             color: white;
             padding: 20px;
             text-align: center;
@@ -73,6 +74,20 @@
         }
         footer ul li {
             margin: 0 10px;
+        }
+        .social-icons a {
+        margin: 0 10px;
+        text-decoration: none;
+        font-size: 3em; /* Adjusted size */
+        }
+        .social-icons a .fab {
+            color: white; /* Default color */
+        }
+        .social-icons a.facebook .fab {
+            color: #3b5998; /* Facebook color */
+        }
+        .social-icons a.instagram .fab {
+            color: #E4405F; /* Instagram color */
         }
     </style>
 </head>
@@ -134,7 +149,10 @@
             <li><a href="#">Contact Us</a></li>
         </ul>
         <p>Follow us on social media</p>
-        <!-- Social Media Icons -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" class="facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a>
+            </div>
         <div>Newsletter Signup</div>
     </footer>
 </body>
