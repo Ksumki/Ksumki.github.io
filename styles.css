@@ -36,9 +36,11 @@ nav ul li a {
 .hero h1 {
     font-size: 3em;
     margin: 0;
+    color: black;
 }
 .hero p {
     font-size: 1.2em;
+    color: black;
 }
 .hero button {
     background-color: green;
